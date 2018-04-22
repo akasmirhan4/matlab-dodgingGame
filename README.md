@@ -1,14 +1,15 @@
 # matlab-dodgingGame
 A simple Anti Drone Sentry game written in MATLAB where the player has to nets from an AI bot.
+
 To launch the game, open DodgeGame.m in MATLAB
 
 Objective:
 Dodge the projectile and collect as many coins as possible
 
 Controls:
-up/down/left/right arrow - control the velocity of drone
-esc/q - quit
-r - restart
+- up/down/left/right arrow - control the velocity of drone
+- esc/q - quit
+- r - restart
 
 The AI calculates the angle required to shoot using a BVP solver: Shooting method.
 The projectile slows down when it detects the player under a close proximity.
